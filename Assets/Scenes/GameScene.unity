@@ -285,6 +285,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7a5b3aae61704f3449a3a88632fe6ab2, type: 2}
   - {fileID: 11400000, guid: 47792c389002a514b8d63e258d1cfc9d, type: 2}
   - {fileID: 11400000, guid: cd1c14acbc382b943b81808e5d50e2e1, type: 2}
+  - {fileID: 11400000, guid: cd1c14acbc382b943b81808e5d50e2e1, type: 2}
   timeBetweenWaves: 0
   isLooping: 1
 --- !u!4 &231297062
@@ -823,7 +824,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96
+  m_fontSize: 51.4
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -834,6 +835,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -964,9 +966,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9083aa54eaa564f43a41720984d5edd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 10
-  leftBoundPadding: 1
-  rightBoundPadding: 1
+  moveSpeed: 20
+  leftBoundPadding: 10
+  rightBoundPadding: 10
   upBoundPadding: 7
   downBoundPadding: 2
 --- !u!114 &1709561881
@@ -1137,6 +1139,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3602030442028599949, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 3602030442028599949, guid: 159a03f0a11384f4493a172d6d27a821, type: 3}
       propertyPath: isPlayer
       value: 1
